@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FaListOl, FaSpinner, FaCheckCircle, FaExclamationTriangle, FaClock, FaArrowRight, FaCheck } from 'react-icons/fa';
+import { FaListOl, FaSpinner, FaCheckCircle, FaExclamationTriangle, FaClock } from 'react-icons/fa';
 import { stepByStepService } from '../services/api';
 
 const PageContainer = styled.div`

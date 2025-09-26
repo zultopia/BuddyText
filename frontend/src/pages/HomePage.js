@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import { FaTextWidth, FaQuestionCircle, FaListOl, FaArrowRight, FaUsers, FaBrain, FaHeart } from 'react-icons/fa';
+import { FaTextWidth, FaQuestionCircle, FaListOl, FaArrowRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const HomeContainer = styled.div`

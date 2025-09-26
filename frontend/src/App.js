@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import styled, { ThemeProvider, createGlobalStyle } from 'styled-components';
-import { motion } from 'framer-motion';
 
 // Components
 import Header from './components/Header';
@@ -95,7 +94,7 @@ const AppContainer = styled.div`
   flex-direction: column;
 `;
 
-const MainContent = styled(main)`
+const MainContent = styled.div`
   flex: 1;
   padding: ${props => props.theme.spacing.lg} 0;
 `;
